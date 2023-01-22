@@ -16,7 +16,7 @@ The procedured followed to achieve this, is split into the 3 notebooks of the re
 
 3) Streaming_Data_Demo
   
-  The third notebook contains the Streaming data demonstration. The last 30 days of the dataset were taken, split into daily batches and fed into a stream processing pipeline using SparkStreaming. Some simple aggregation statistics were calculated after each trigger, and a Results table was constantly being updated.
+  The third notebook contains the streaming data simulation. The last 30 days of the dataset were taken, split into daily batches and fed into a stream processing pipeline using SparkStreaming. Some simple aggregation statistics were calculated after each trigger, and a Results table was constantly being updated.
   
 To visualize the results I prepared a report with some Map Charts on Google Looker at:  
 https://datastudio.google.com/reporting/e647d5ac-e2e2-437f-ac48-cb63d82fe382/page/p_zbw36zck2c
