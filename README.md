@@ -25,3 +25,6 @@ The procedured I followed is divided into the 3 notebooks of the repository as f
   
 To visualize the results I prepared a report with some Map Charts on Google Looker at:  
 https://datastudio.google.com/reporting/e647d5ac-e2e2-437f-ac48-cb63d82fe382/page/p_zbw36zck2c
+
+A brief overview of the project can be found on the below video:
+https://youtu.be/BcUGLOHGWo0
