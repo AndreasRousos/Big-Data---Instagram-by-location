@@ -4,7 +4,7 @@ This repository contains the coded artifacts for the final project for COMP-548D
 
 The project's purpose is to analyse data from Instagram posts and provide insights on the popularity of different locations on different time periods. The dataset contains information on 42M Posts, 1.2M Locations and 4.5M Profiles from Instagram from 2010 to 2019.
 
-A document store database was selected (Firestore), based on the fact that Instagram posts would have more read operations than write operations (a post is viewed multiple times but is created only once). If the data are to be processed a lot of times, or on a regular basis, a better idea would be to join the collections and add some more information on a location or a user on each post's document. However, joining these 3 collections with millions of documents each would be very intensive and costly. So, after processing the posts, I only then joined the results with some fields from the other collections.
+A document store database was selected (Firestore), based on the fact that Instagram posts would have more read operations than write operations (a post is viewed multiple times but is created only once). If the data are to be processed a lot of times, or on a regular basis, a better idea would be to join the collections only once at the beginning and add some more information on a location or a user on each post's document. However, joining these 3 collections with millions of documents each would be very intensive and costly. So, after processing the posts, I only then joined the results with some fields from the other collections.
 
 The procedured I followed is divided into the 3 notebooks of the repository as follows:
 
